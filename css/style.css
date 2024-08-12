@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #151740;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image-section {
+    flex: 1;
+    max-width: 50%; 
+    padding-left: 20px;
+}
+
+.image-section img {
+    width: 100%; 
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.text-section {
+    flex: 1;
+    max-width: 45%; 
+    padding-right: 40px; 
+    text-align: left;
+    box-sizing: border-box; 
+}
+
+.text-section h1 {
+    font-size: 75px; 
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.text-section h2 {
+    font-size: 50px; 
+    color: #CA68F9;
+    margin-bottom: 20px;
+}
+
+.text-section .intro {
+    font-size: 40px; 
+    color: #cdcdcd;
+    line-height: 1.6; 
+    margin-bottom: 40px; 
+}
+
+.text-section p {
+    font-size: 45px; 
+    color: #ffffff;
+    line-height: 1.6; 
+    margin-bottom: 40px; 
+}
+
+.text-section ul {
+    padding-left: 20px; 
+    margin: 0;
+}
+
+.text-section ul li {
+    font-size: 30px; 
+    margin-bottom: 30px;
+    color: #ffffff; 
+}
+
+.text-section strong {
+    font-weight: bold;
+    color:#CA68F9;
+    font-size: 35px;
+}
+
+.text-section .highlight {
+    color: #CA68F9; 
+    font-size: 50px; 
+}
+
+.learn-more-button {
+    display: inline-block;
+    padding: 15px 30px; 
+    font-size: 1.5em; 
+    color: #fff;
+    background-color: #A119E0;
+    text-decoration: none;
+    border-radius: 8px; 
+    margin-top: 20px;
+    text-align: center; 
+}
+
+.learn-more-button:hover {
+    background-color: #8b0eaf;
+}
